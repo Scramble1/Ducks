@@ -26,12 +26,12 @@ var score;
 // no more variables
 // ========================================================
 function setup() {
-    createCanvas(1500, 750);
+    createCanvas(1800, 800);
 
-    sword = new Blade(color("##d31313")); // change sword color
+    sword = new Blade(color("#52f2ea")); // change sword color
     frameRate(60); //60 FPS
 
-    lives = 556;
+    lives = 6;
     score = 0; //initial
 }
 
@@ -96,7 +96,7 @@ function handleFruit() {
 			fruit.splice(i, 1); // remove the invisible fruit from array
 		} else {
 
-			points += (sword.checkForSlice(fruit[i])) ? Math.round(9000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000) : 0; // if fruit is cut, add 1 
+			points += (sword.checkForSlice(fruit[i])) ? Math.round(1) : 0; // if fruit is cut, add 1 
 		}
 
 	}
@@ -135,7 +135,7 @@ function endGame() {
   noStroke();
   fill("#888888");
   textSize(100);
-  text("Game over!", width / 2, height / 2);
+  text("Yous touch bad fruit or fruits took yo lives", width / 2, height / 2);
   textSize(50);
-  text("Press refresh to restart!", width / 2, height / 2 + 60);
+  text("Press Crt,r to refresh", width / 2, height / 2 + 60);
 }

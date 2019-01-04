@@ -78,14 +78,14 @@ function randomFruit() {
   var x = random(width);
   var y = height;
 
-  var size = noise(frameCount) * 20 + 20; //Randomize the size
+  var size = noise(frameCount) * 25 + 20; //Randomize the size
 
   var bad = (random() > BAD_FRUIT_PROBABILITY);
 
 //Change the color of bad fruits to red
-  var r = (bad) ? 225 : 0;
-  var g = (bad) ? 34 : noise(frameCount * 2) * 255;
-  var b = (bad) ? 56 : noise(frameCount * 3) * 255;
+  var r = (bad) ? 25 : 0;
+  var g = (bad) ? 96 : noise(frameCount * 2) * 255;
+  var b = (bad) ? 51 : noise(frameCount * 3) * 255;
   var a = (bad) ? 255 : 255;
 
   var col = color(r, g, b, a); // Color

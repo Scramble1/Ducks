@@ -1,11 +1,11 @@
 jQuery(document).ready(function() {
   var type = new Typed('#type', {
     strings: [
-      'I',
-      'Love',
-      'Potato',
-      'Dog',
-      'Puke'
+      'The',
+      'Legendary',
+      'Game',
+      'Gallery',
+      'Yos'
     ],
     typeSpeed: 30,
     backSpeed: 50,
