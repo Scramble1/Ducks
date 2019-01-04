@@ -5,7 +5,7 @@ jQuery(document).ready(function() {
       'Legendary',
       'Game',
       'Gallery',
-      'Yos'
+      
     ],
     typeSpeed: 30,
     backSpeed: 50,
