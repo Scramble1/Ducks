@@ -1,6 +1,6 @@
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
 html {
-  background: url("https://s3.thcdn.com/productimg/0/600/600/83/10558083-1358867611-593897.jpg")no-repeat center center fixed ;
+  background: url("https://i.kym-cdn.com/entries/icons/mobile/000/025/999/Screen_Shot_2018-04-24_at_1.33.44_PM.jpg")no-repeat center center fixed ;
   background-size: cover;
 }
 
@@ -20,7 +20,7 @@ html {
 
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲  */
 .card {
-  opacity: 0.9;
+  opacity: 0;
   transition: opacity .3s;
 }
 
