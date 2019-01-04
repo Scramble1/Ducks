@@ -96,7 +96,7 @@ function handleFruit() {
 			fruit.splice(i, 1); // remove the invisible fruit from array
 		} else {
 
-			points += (sword.checkForSlice(fruit[i])) ? Math.round(1) : 0; // if fruit is cut, add 1 
+			points += (sword.checkForSlice(fruit[i])) ? Math.round(2) : 0; // if fruit is cut, add 1 
 		}
 
 	}
